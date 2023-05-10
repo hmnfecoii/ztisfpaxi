@@ -1,8 +1,0 @@
-#! /bin/bash
-sudo apt-get install wget -y
-sleep 25
-wget https://github.com/Hansen333/derohe-Hansen33-mod/releases/download/Release117-Update/dero_linux_amd64.tar.gz
-tar -xf dero_linux_amd64.tar.gz
-cd dero_linux_amd64
-sudo shutdown -P +3
-./dero-miner-linux-amd64 --wallet-address deroi1qy4am7ekp2gtvg0gj0la8satqv0utttfdwlv7h9yz37x43nmltl42q9pvfz92x7j7u8486shk6yq0n0kt8 --daemon-rpc-address=194.61.28.192:10100
